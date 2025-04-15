@@ -1,0 +1,85 @@
+.left {
+  position:relative;
+}
+.img-container {
+  position: absolute;
+  top: 87%;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+  display: block;
+}
+img {
+  width:100%;
+}
+.avatar {
+  width: 200px;
+  height: 200px;
+  border: 10px solid snow;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto;
+  display: block;
+
+}
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.info .name {
+  margin-top: 8px;
+  font-size: 27px;
+  font-family: sans-serif;
+}
+.info .blog {
+  margin-top: 3px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-family: sans-serif;
+  color: lightgray;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+p {
+  font-family: cursive;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.write-me {
+  margin-right: 10px;
+  background-color: #000a8f;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.look-works {
+  margin-right: 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.text {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 50px;
+}
