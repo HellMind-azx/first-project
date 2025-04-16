@@ -1,0 +1,8 @@
+div {
+  margin: 50% auto;
+  width: 200px;
+  height: 200px;
+  background: #444;
+  z-index: 999;
+  display: none;
+}

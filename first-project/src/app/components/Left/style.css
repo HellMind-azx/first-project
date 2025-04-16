@@ -3,7 +3,7 @@
 }
 .img-container {
   position: absolute;
-  top: 87%;
+  top: 31%;
   width: 100%;
   height: 100%;
   overflow: hidden;
@@ -12,10 +12,11 @@
 }
 img {
   width:100%;
+  height: 400px;
 }
 .avatar {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   border: 10px solid snow;
   border-radius: 50%;
   object-fit: cover;
@@ -49,11 +50,9 @@ img {
 }
 
 p {
-  font-family: cursive;
-  margin-bottom: 20px;
-  margin-top: 20px;
+  font-family: courier;
 }
-.write-me {
+.write-to-me {
   margin-right: 10px;
   background-color: #000a8f;
   color: white;
@@ -73,13 +72,13 @@ p {
 }
 .text {
   text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .buttons {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  gap: 50px;
+  gap: 20px;
 }

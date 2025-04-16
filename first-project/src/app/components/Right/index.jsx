@@ -1,23 +1,9 @@
 import './style.css'
-
+import Nav from '../Nav'
 function Right() {
   return(
     <div className="right">
-      <nav className="nav">
-      <div className="left-nav">
-      <a href="">ГЛАВНАЯ</a>
-      <a href="">СТАТЬИ</a>
-      <a href="">ОБО МНЕ</a>
-      <a href="">РЕКЛАМА</a>
-      </div>
-      <div className="right-nav">
-      <a href="">ПРОФИЛЬ</a>
-      <input 
-        type="search"
-        placeholder="Поиск по блогу"
-        />
-      </div>
-      </nav>
+     <Nav></Nav>
       <main className='container'>
       <div className='imgBox'>
       <div className='image'>

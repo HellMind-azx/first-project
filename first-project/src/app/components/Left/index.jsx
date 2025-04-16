@@ -1,13 +1,15 @@
+
 import './style.css'
 
-function Left() {
-  return(
-    <div className="left">
-      <div className='image'>
-       <img src='https://img.freepik.com/free-photo/papers-laptop-office-table_23-2147772284.jpg?ga=GA1.1.1730196732.1738823166&semt=ais_hybrid&w=740'></img>
-      </div>
 
-      <div className='img-container'>   
+function Left() {
+
+  return( 
+    <div className="left">
+
+       <img src='https://img.freepik.com/free-photo/papers-laptop-office-table_23-2147772284.jpg?ga=GA1.1.1730196732.1738823166&semt=ais_hybrid&w=740'></img>
+
+      <div className='img-container'npm >   
          <img class='avatar' src='https://img.freepik.com/premium-photo/samurai-warrior-with-sword-red-background-illustration_1308175-83700.jpg?w=740'></img>
           <div className='info'>
             <h2 className='name'>
@@ -30,17 +32,15 @@ function Left() {
             </p>
           </div>
       <div className='buttons'>
-        <button className='write-me'>Написать мне</button>
+        <button className='write-to-me'>Написать мне</button>
         <button className='look-works'>
           Посмотреть работы
         </button>
-      </div>
-         
         
       </div>
+      </div>
  
-     
-     
+    
     </div>
   )
 }
