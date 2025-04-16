@@ -6,7 +6,7 @@ function Nav() {
         <div className="left-nav">
           <Link href="/">ГЛАВНАЯ</Link>
           <Link href="/articles">СТАТЬИ</Link>
-          <Link href="">ОБО МНЕ</Link>
+          <Link href="/about-me">ОБО МНЕ</Link>
           <Link href="">РЕКЛАМА</Link>
         </div>
         <div className="right-nav">

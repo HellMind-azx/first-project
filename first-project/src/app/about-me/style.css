@@ -1,0 +1,22 @@
+.info-about-me {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 40px;
+  margin-top: 20px;
+}
+
+h1 {
+  font-family: monospace;
+}
+span {
+  font-family:sans-serif;
+  color: #ff7e2e;
+  font-weight:100;
+}
+.img-about-me img {
+  object-fit: cover;
+}
+.text-about-me p {
+  font-family: cursive;
+}

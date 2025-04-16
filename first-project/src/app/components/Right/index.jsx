@@ -1,5 +1,6 @@
 import './style.css'
 import Nav from '../Nav'
+
 function Right() {
   return(
     <div className="right">
