@@ -21,13 +21,26 @@
 }
 .info h1 {
   font-size: 32px;
-  color: #b34400;
+   color: #40382b;
+   text-shadow: 0.5px 0.5px #f0e8d9;
+  transform: rotate(1deg);
 }
 .info p {
+  font-family: 'Zeyada', cursive;
   font-size: 23px;
-  font-weight: bold; 
-  font-family: cursive;
-  color: #db671f;
+  line-height: 1.6;
+  color: #4B3E2A; 
+  text-shadow: 0.5px 0.5px #f0e8d9;
+  transform: rotate(1deg);
+}
+hr {
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid #4B3E2A; 
+  ext-shadow: 0.5px 0.5px #f0e8d9;
+  transform: rotate(1deg);
+  margin-bottom: 8px;
+  margin-top: 8px;
 }
 .my-skills {
   display: flex;

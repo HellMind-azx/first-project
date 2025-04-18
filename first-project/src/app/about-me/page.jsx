@@ -19,6 +19,7 @@ function AboutMe() {
         src="https://img.freepik.com/free-photo/autumn-leaf-close-up-with-city-lights-bokeh-rainy_1268-29450.jpg?t=st=1744958637~exp=1744962237~hmac=7da8551b65463b60591390f5690f4ed555d50629109c4a545f6aea737981a24c&w=996"/>
       </div>
     </div>
+      <hr></hr>
     </>
   )
 }
