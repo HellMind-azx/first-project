@@ -9,8 +9,8 @@ function Left() {
 
        <img src='https://img.freepik.com/free-photo/papers-laptop-office-table_23-2147772284.jpg?ga=GA1.1.1730196732.1738823166&semt=ais_hybrid&w=740'></img>
 
-      <div className='img-container'npm >   
-         <img class='avatar' src='https://img.freepik.com/premium-photo/samurai-warrior-with-sword-red-background-illustration_1308175-83700.jpg?w=740'></img>
+      <div className='img-container'>   
+         <img className='avatar' src='https://img.freepik.com/premium-photo/samurai-warrior-with-sword-red-background-illustration_1308175-83700.jpg?w=740'></img>
           <div className='info'>
             <h2 className='name'>
                Маратов Жамшид

@@ -1,10 +1,24 @@
+'use client'
+
+import React, {useState} from 'react'
 import './style.css'
 import Nav from '../Nav'
+import Profile from '../Profile'
 
 function Right() {
+  const [isProfileOpen, setIsProfileOpen] = useState(false);
+
+  const user = {
+    avatar: 'https://via.placeholder.com/100',
+    fullName: 'Zeerv Kyuti',
+    username: 'kyuti.dev',
+    phone: '+123 456 7890',
+    bio: 'Fullstack разработчик 🚀'
+  };
+  
   return(
     <div className="right">
-     <Nav></Nav>
+      <Nav onProfileClick={() => setIsProfileOpen(true)} />
       <main className='container'>
       <div className='imgBox'>
       <div className='image'>
@@ -38,6 +52,7 @@ function Right() {
           <p>15.04.2025</p>
         </div>
       </main>
+      <Profile isOpen={isProfileOpen} onClose={() => setIsProfileOpen(false)} user={user} />
     </div>
   )
 }
