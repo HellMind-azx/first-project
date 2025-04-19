@@ -1,9 +1,14 @@
+'use client'
 
+import React, {useState} from 'react'
 import './style.css'
-
+import WriteToMe from '../write-to-me'
 
 function Left() {
-
+const [isWriteToMeOpen, setIsWriteToMeOpen] = useState(false);
+  const openModal = () => setIsWriteToMeOpen(true);
+  const closeModal = () => setIsWriteToMeOpen(false);
+  
   return( 
     <div className="left">
 
@@ -32,15 +37,15 @@ function Left() {
             </p>
           </div>
       <div className='buttons'>
-        <button className='write-to-me'>Написать мне</button>
+        <button className='write-to-me' onClick={openModal}>Написать мне</button>
         <button className='look-works'>
           Посмотреть работы
         </button>
-        
+  
       </div>
       </div>
  
-    
+      {isWriteToMeOpen && <WriteToMe onClose={closeModal} />}
     </div>
   )
 }

@@ -27,6 +27,7 @@ body {
  
 }
 .left-and-right {
+  
   display: grid;
   grid-template-columns: 2fr 3fr;
 }

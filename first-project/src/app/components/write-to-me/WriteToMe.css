@@ -1,0 +1,37 @@
+.form {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  backdrop-filter: blur(5px)
+}
+.form-content {
+  background: linear-gradient(45deg, #f63131, #3b6297); 
+  padding: 20px;
+  border-radius: 8px;
+  width: 500px;
+  height: 460px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+label , input{
+  font-family: courier;
+  font-size: 20px;
+}
+#submit {
+  font-family: monospace;
+    padding: 10px 20px;
+    background: linear-gradient(to right, #ff7e2e, #f83600);
+}
+#close {
+  float: right;
+}
