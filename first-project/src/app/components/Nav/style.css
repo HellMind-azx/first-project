@@ -1,21 +1,21 @@
 nav {
-    display: grid;
-    grid-template-columns:3fr 1fr;;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: #000;
-    border-bottom: 1px solid #ddd;
-  }
-  a {
-    padding: 7px;
-    font-weight: bold;
-  }
-  nav a:hover {
-    background: #d7641c;
-  }
-  .right-nav {
-    display:flex;
-    justify-content: flex-end;
-    gap:15px;
-  }
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #000;
+  border-bottom: 1px solid #ddd;
+}
+a {
+  padding: 7px;
+  font-weight: bold;
+}
+nav a:hover {
+  background: rgb(224, 189, 100);
+}
+.right-nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+}

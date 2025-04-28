@@ -1,9 +1,9 @@
 .left {
-  position:relative;
+  position: relative;
 }
 .img-container {
   position: absolute;
-  top: 31%;
+  top: 45%;
   width: 100%;
   height: 100%;
   overflow: hidden;
@@ -11,18 +11,17 @@
   display: block;
 }
 img {
-  width:100%;
+  width: 100%;
   height: 400px;
 }
 .avatar {
-  width: 250px;
-  height: 250px;
-  border: 10px solid snow;
+  width: 240px;
+  height: 240px;
+  border: 8px solid #d4af37;
   border-radius: 50%;
   object-fit: cover;
   margin: 0 auto;
   display: block;
-
 }
 .info {
   display: flex;
@@ -51,11 +50,26 @@ img {
 
 p {
   font-family: courier;
+  text-align: center;
+  width: 90%;
+  padding: 10px;
 }
 .write-to-me {
   margin-right: 10px;
-  background-color: #000a8f;
-  color: white;
+  background: linear-gradient(
+    90deg,
+    #b6862c 0%,
+    #d4af37 20%,
+    #f5e27c 40%,
+    #fff9c4 50%,
+    #f5e27c 60%,
+    #d4af37 80%,
+    #b6862c 100%
+  );
+  color: #222;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.2em;
+  font-weight: bold;
   border: none;
   padding: 10px 20px;
   border-radius: 15px;
@@ -63,13 +77,17 @@ p {
 }
 .look-works {
   margin-right: 10px;
-  background-color: red;
-  color: white;
+  background: linear-gradient(135deg, #b0b0b0 0%, #e7e7e7 50%, #b0b0b0 100%);
+  color: #222;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.2em;
+  font-weight: bold;
   border: none;
   padding: 10px 20px;
   border-radius: 15px;
   cursor: pointer;
 }
+
 .text {
   text-align: center;
   margin-top: 20px;
