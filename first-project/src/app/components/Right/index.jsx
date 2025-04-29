@@ -4,6 +4,7 @@ import React, {useState} from 'react'
 import './style.css'
 import Nav from '../Nav'
 import Profile from '../Profile'
+import Link from 'next/link'
 
 function Right() {
   const [isProfileOpen, setIsProfileOpen] = useState(false);
@@ -41,10 +42,69 @@ function Right() {
 
         <div className='text'>
         <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.
+            lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.
         </p>
-          <p>15.04.2025</p>
+          <p className='text-left-p'>15.04.2025</p>
         </div>
+
+        <section className='article-container'>
+          <img 
+            src='https://i.pinimg.com/originals/77/8d/ca/778dca34843c1e7be89e2214dc418e7a.jpg'
+            />
+          <div className='article-box'>
+            <h1>Как писать код как безумец ?</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.
+            </p>
+              <div className='read'>
+              <p>21.09.2022</p>
+                <ul>
+                  <li>Создание сайтов</li>
+                </ul>
+                <Link href='#'>Читать</Link>
+              </div>
+          </div>
+        </section>
+        <section className='article-container'>
+          <img 
+            src='https://sun9-16.userapi.com/impg/R7bip-I8mpKnrCd8b9x74Yit1AqehFEqSoDXtg/PUwUf0Z_S-g.jpg?size=1280x667&quality=96&sign=babd09ec35c02b67b6496118041678f7&type=album'
+            />
+          <div className='article-box'>
+            <h1>Подробно здесь можете узнать о продвижении</h1>
+            
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.
+            
+            </p>
+              <div className='read'>
+              <p>21.09.2022</p>
+                <ul>
+                  
+                  <li>Интернет-магазин</li>
+                </ul>
+                <Link href=''>Читать</Link>
+              </div>
+          </div>
+        </section>
+        <section className='article-container'>
+          <img 
+            src='https://www.pptssolutions.com/wp-content/uploads/2023/04/digital-marketing2-50.jpg'
+            />
+          <div className='article-box'>
+            <h1>Блог о маркетинге</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.</p>
+              <div className='read'>
+              <p>13.11.2021</p>
+                <ul>
+                  <li>Продвижение видео</li>
+                </ul>
+                <Link href='/blogs/digital-marketing'>Читать</Link>
+              </div>
+          </div>
+        </section>
       </main>
        {isProfileOpen && <Profile onClose={closeModal} />}
     </div>

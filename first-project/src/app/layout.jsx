@@ -9,6 +9,9 @@ export default function RootLayout({ children }) {
         className={'body'}
       >
         {children}
+        <footer>
+          <p>© 2025 Все права защищены</p>
+        </footer>
       </body>
     </html>
   );

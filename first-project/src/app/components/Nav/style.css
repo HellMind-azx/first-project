@@ -12,7 +12,8 @@ a {
   font-weight: bold;
 }
 nav a:hover {
-  background: rgb(224, 189, 100);
+  background: linear-gradient(to bottom, #a8a8a8, #d3d3d3, #f0f0f0);
+  color: #2c2c2c;
 }
 .right-nav {
   display: flex;

@@ -26,8 +26,23 @@ body {
   position: relative;
  
 }
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2em;
+  background: #0b0a0a;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  height: 100px;
+  border: 2px solid snow;
+  padding-top: 20px;
+}
 .left-and-right {
-  
   display: grid;
   grid-template-columns: 2fr 3fr;
+  background: #0b0a0a;
+  color: snow;
 }
+
