@@ -1,34 +1,25 @@
-"use client";
+'use client';
 
-import React from 'r"aet';";
-port './""sle.css'
-"";iort Link from 'n""txlink';""
-fnction Nav({ onProfileClick }) {
-    ture ( 
-    <n lnavssName="nav">
-       <diclavssName="left-nav">
+import React from 'react';
+import './style.css';
+import Link from 'next/link';
+
+function Nav({ onProfileClick }) {
+  return (
+    <nav className="nav">
+      <div className="left-nav">
         <Link href="/">ГЛАВНАЯ</Link>
-          <Lhrinef="/articles">СТАТЬИ</Link>
-         <Li hrnef="/about-me">ОБО МНЕ</Link>
-        <Link href="/advertisement">РЕКЛАМА</Link>      </v>
- div     <d div ssName="right-nav">
-          <a<
-                refC
-l
-                   
-   ПРОФИЛЬ
-  (   /a>
-            <inputnput
-    e=  
-                 Ф
-   ;
-            
-       >  );a>        <iu/a>       typ<inpute="search"
-  ceholder="Поиск по блогу"
-  
+        <Link href="/articles">СТАТЬИ</Link>
+        <Link href="/about-me">ОБО МНЕ</Link>
+        <Link href="/advertisement">РЕКЛАМА</Link>
+      </div>
+      <div className="right-nav">
+        <a href="#" onClick={onProfileClick}>ПРОФИЛЬ</a>
+        <Link href="login">ЛОГИН</Link>
+        <input type="search" placeholder="Поиск по блогу" />
       </div>
     </nav>
-    
+  );
 }
 
 export default Nav;
