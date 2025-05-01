@@ -63,7 +63,7 @@ function Right() {
                 <ul>
                   <li>Создание сайтов</li>
                 </ul>
-                <Link href='#'>Читать</Link>
+                <Link href='/blogs/web-developing'>Читать</Link>
               </div>
           </div>
         </section>
@@ -84,7 +84,7 @@ function Right() {
                   
                   <li>Интернет-магазин</li>
                 </ul>
-                <Link href=''>Читать</Link>
+                <Link href='/blogs/video-marketing'>Читать</Link>
               </div>
           </div>
         </section>
@@ -104,6 +104,18 @@ function Right() {
                 <Link href='/blogs/digital-marketing'>Читать</Link>
               </div>
           </div>
+        </section>
+
+        <section className='pages'>
+        <div className='previous'>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="#ffffff" stroke-width="2" d="m15 6l-6 6l6 6"/></svg>
+        </div>
+        <div className='page-1'><span>1</span></div>
+        <div className='page-2'><span>2</span></div>
+        <div className='page-3'><span>3</span></div>
+        <div className='next'>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m9 6l6 6l-6 6"/></svg>
+        </div>
         </section>
       </main>
        {isProfileOpen && <Profile onClose={closeModal} />}

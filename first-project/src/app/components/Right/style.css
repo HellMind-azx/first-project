@@ -73,7 +73,6 @@ svg {
   margin: 0 auto;
   padding: 20px;
   margin-top: 30px;
-  border-radius: 30px;
   background: #000;
 }
 .article-container:hover {
@@ -106,5 +105,65 @@ svg {
   align-items: center;
   flex-direction: row;
 }
+.pages {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.previous {
+  width: 50px;
+  height: 50px;
+  background: #000;
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page-1,
+.page-3 {
+  width: 50px;
+  height: 50px;
+  background: #000;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page-2 {
+  width: 50px;
+  height: 50px;
+  background: #002c85;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page-1:hover,
+.page-2:hover,
+.page-3:hover,
+.previous:hover,
+.next:hover{
+  background: #002c85;
+}
+.next {
+  width: 50px;
+  height: 50px;
+  background: #000;
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+  
 
 

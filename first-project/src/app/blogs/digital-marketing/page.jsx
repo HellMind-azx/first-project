@@ -1,16 +1,36 @@
 import './style.css'
 import Nav from '@/app/components/Nav'
 
-function WebDeveloping() {
+function DigitalMarketing() {
   return (
     <>
       <Nav/>
-    <div className='web-developing'>
+    <div className='digital-marketing'>
       
       <header className='head'>
         <h1>Блог о продвижении</h1>
       </header>
-    
+
+      <div className='category-and-search'>
+        
+      <div className='category'>
+        <div className='category-details'>
+          <CategoryList/>
+          </div>
+        </div>
+      <div className='latest-articles'>
+        <h2>Последние статьи</h2>
+      </div>
+        
+      <div className='input-search'>
+        <input
+          type='search'
+          placeholder='Поиск по статьям'
+          />
+      </div>
+        
+      </div>
+      
       <main className='main'>
         <div className='post-box'>
           <section className="post">
@@ -88,4 +108,4 @@ function WebDeveloping() {
       </>
   )  
 }
-export default WebDeveloping
+export default DigitalMarketing
