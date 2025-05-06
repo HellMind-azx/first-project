@@ -6,9 +6,7 @@ function Advertisement() {
       <Nav/>
     <div className="hero-block">
     <div className="info">
-    <h1>Я фулл-стэк разработчик опытом 5 месяцев</h1>
-      <hr></hr>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, voluptates. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, voluptates.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, voluptates.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, voluptates.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, voluptates.</p>
+  
     </div>
     </div>
       

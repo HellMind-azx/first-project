@@ -18,7 +18,7 @@ function Left() {
               className="avatar"
               src="https://img.freepik.com/premium-photo/samurai-warrior-with-sword-red-background-illustration_1308175-83700.jpg?w=740"
             ></img>
-            <div className="info">
+            
               <h2 className="name">Маратов Жамшид</h2>
               <h2 className="blog">блог fullstack разработчика</h2>
               <div className="icons">
@@ -62,7 +62,7 @@ function Left() {
                     clipRule="evenodd"
                   ></path>
                 </svg>
-              </div>
+            
             </div>
 
             <div className="text">

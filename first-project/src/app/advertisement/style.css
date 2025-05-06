@@ -3,8 +3,8 @@
   position: relative;;
   flex-direction: column;
   padding: 40px;
- background: url(https://img.freepik.com/free-photo/top-view-fresh-oranges-orange-pencil-notebook-bright-isolated-surface_140725-62745.jpg?t=st=1744870448~exp=1744874048~hmac=5f5d5f43095440d785e8d47c62d7d4063efa1076f898481e5f5eb83faf4365a6&w=996);
-  clip-path: polygon(0 0, 100% 0, 100% 92%, 0% 100%);
+ background: 
+ url(https://img.freepik.com/free-vector/advertising-agency-webinar-template_23-2150041730.jpg?t=st=1746545471~exp=1746549071~hmac=3f625cc43d18bec6d0d2693a4ddbc3f47970c27e3f946eb280e7e12ba53767e3&w=1380) no-repeat center center;
   background-size: cover;
   height: 150vh;
 }
