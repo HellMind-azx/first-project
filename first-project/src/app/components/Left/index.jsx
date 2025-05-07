@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import "./style.css";
-import WriteToMe from "../write-to-me";
+import WriteToMe from "../write-me";
 
 function Left() {
   const [isWriteToMeOpen, setIsWriteToMeOpen] = useState(false);
