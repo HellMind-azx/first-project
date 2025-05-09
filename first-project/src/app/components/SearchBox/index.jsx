@@ -1,6 +1,6 @@
 'use client";'
 
-import "./style.css";
+import "./style.scss";
 import { useState } from "react";
 import { Search } from "lucide-react";
 

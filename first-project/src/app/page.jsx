@@ -1,11 +1,10 @@
+import './globals.scss';
 
-import Left from "./components/Left";
-import Right from "./components/Right";
+import HomePage from './components/HomePage';
 function Page() {
   return (
     <div className="page-container">
-        <Left />
-        <Right />
+       <HomePage />
     </div>
   );
 }

@@ -22,7 +22,8 @@
 }
 
 .hero img {
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   max-width: 100%;
   height: 100%;
   border-radius: 12px;
@@ -119,7 +120,6 @@
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-
 .review-card img {
   width: 70px;
   height: 70px;
@@ -155,6 +155,7 @@
 .cta button:hover {
   background: #0056b3;
 }
+
 .related-blogs {
   margin-top: 60px;
   background: #f9f9f9;
@@ -220,6 +221,7 @@
 .comment-form button:hover {
   background: #0056b3;
 }
+
 .comment-list {
   margin-top: 20px;
   background: #f4f4f4;
@@ -238,5 +240,4 @@
 
 .comment-list li {
   margin-bottom: 8px;
-}
-
+}/*# sourceMappingURL=WebDeveloping.css.map */

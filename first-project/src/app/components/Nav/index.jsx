@@ -1,6 +1,6 @@
 "use client"
 
-import "./style.css"
+import "./style.scss"
 import Link from "next/link"
 import SearchBox from "../SearchBox"
 import { usePathname } from "next/navigation"
@@ -24,20 +24,21 @@ function Nav(props) {
     const router = useRouter()
     const availableLinks = props.user ? registeredLinks : nonRegisteredLinks
 
-    const toggleMenu = async(e) => {
+    const toggleMenu = async (e) => {
         setIsMenuOpen(!isMenuOpen)
     }
 
     const handleSearch = (query) => {
-      if (query.trim()) {
-          router.push(`/search?query=${encodeURIComponent(query)}`);
-      }
-  };
+        if (query.trim()) {
+            router.push(`/search?query=${encodeURIComponent(query)}`);
+        }
+    };
 
     return (
         <nav className="nav-wrapper">
+            
             <div className="left">
-            <Searchbox onSearch={handleSearch} />
+                <SearchBox onSearch={handleSearch} />
             </div>
 
             <div className="burger-menu" onClick={toggleMenu}>
@@ -50,7 +51,7 @@ function Nav(props) {
                 {
                     availableLinks.map((link) => {
                         const getIcon = () => {
-                            switch(link.title) {
+                            switch (link.title) {
                                 case 'ГЛАВНАЯ':
                                     return <FaHome className="nav-icon" />;
                                 case 'СТАТЬИ':

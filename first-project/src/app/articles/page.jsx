@@ -1,10 +1,8 @@
-import './style.css'
-import Nav from '../components/Nav';
+import './style.scss'
 
 function Atricles() {
     return (
         <>
-            <Nav></Nav>
             <div className="articles">
                 <img
                     src="https://img.freepik.com/premium-photo/newspaper-background-concept_23-2149501618.jpg?w=996"

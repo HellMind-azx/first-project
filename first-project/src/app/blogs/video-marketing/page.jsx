@@ -1,6 +1,5 @@
 import React from "react";
-import "./VideoMarketing.css"; 
-import Nav from "@/app/components/Nav"
+import "./VideoMarketing.scss"; 
 
 const features = [
   {
@@ -40,7 +39,7 @@ const testimonials = [
 const VideoMarketing = () => {
   return (
     <div className="video-page">
-      <Nav/>
+
       <section className="hero">
         <h1>Видео-маркетинг — Будущее Онлайн-Продвижения</h1>
         <p>Используй силу видео, чтобы вдохновлять, вовлекать и продавать.</p>

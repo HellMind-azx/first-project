@@ -1,0 +1,30 @@
+@use "../../assets/styles/globals" as *;
+
+
+.profile-page-wrapper {
+  position: relative;
+    padding: 30px 120px;
+    @include flex(column, space-between, space-between, 50px);
+
+    .profile-header {
+        @include flex(row, center, space-between);
+
+        .left {
+            @include flex(row, center, flex-start);
+        }
+    }
+}
+.danger-btn {
+  position: absolute;
+  top: 10%;
+  right: 12%;
+  cursor: pointer;
+  background: $indigo-gradient;
+  padding: 10px 40px;
+  border-radius: 5px;
+}
+#profile-email {
+  margin-left: 75px;
+  font-size: 14px;
+  color: $dark-gray;
+}

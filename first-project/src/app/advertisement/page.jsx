@@ -1,9 +1,7 @@
-import './style.css'
-import Nav from '../components/Nav'
+import './style.scss'
 function Advertisement() {
   return(
     <>
-      <Nav/>
     <div className="hero-block">
     <div className="info">
   

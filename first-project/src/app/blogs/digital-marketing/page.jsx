@@ -1,10 +1,8 @@
-import './style.css'
-import Nav from '@/app/components/Nav'
+import './style.scss'
 
 function DigitalMarketing() {
   return (
     <>
-      <Nav/>
     <div className='digital-marketing'>
       
       <header className='head'>
@@ -15,7 +13,6 @@ function DigitalMarketing() {
         
       <div className='category'>
         <div className='category-details'>
-          <CategoryList/>
           </div>
         </div>
       <div className='latest-articles'>

@@ -1,38 +1,46 @@
 .articles {
-    width: 70%;
-    background-color: #111;
-    margin: 0 auto;
-    padding: 10px;
+  width: 70%;
+  background-color: #111;
+  margin: 0 auto;
+  padding: 10px;
 }
+
 img {
-    object-fit: cover;
-    margin: 0 auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 0 auto;
 }
+
 .article {
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    gap: 5px;
-    padding: 10px;
-    margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 5px;
+  padding: 10px;
+  margin-top: 20px;
 }
+
 .content-img img {
-    width: 250px;
-    height: 250px;
+  width: 250px;
+  height: 250px;
 }
+
 .content-info p:first-child {
-    font-family: monospace;
-    font-size: large;
+  font-family: monospace;
+  font-size: large;
 }
+
 .content-info p:nth-child(2) {
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 50;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 50;
 }
+
 .content-info p:last-child {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: left;
-    padding: 35px 15px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: left;
+  padding: 35px 15px;
 }
+
 .article:hover {
-    background-color: #555;
-    transition: 0.3s ease;
-}
+  background-color: #555;
+  transition: 0.3s ease;
+}/*# sourceMappingURL=style.css.map */

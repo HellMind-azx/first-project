@@ -1,17 +1,21 @@
+import { createContext } from "react"
+
+const context = createContext()
+
 const nonRegisteredLinks = [
-    { title: "About", path: "/about" },
-    { title: "FAQ", path: "/faq" },
-    { title: "Login", path: "/auth/login" },
+    { title: "О НАС", path: "/about-us" },
+    { title: "ЛОГИН", path: "/auth/login" },
 ]
 const registeredLinks = [
-    { title: "Explore", path: "/", },
-    { title: "Trending", path: "/trending" },
-    { title: "About", path: "/about" },
-    { title: "FAQ", path: "/faq" },
-    { title: "Profile", path: "/profile", id: "profile" },
+    { title: "ГЛАВНАЯ", path: "/", },
+    { title: "О НАС", path: "/about-us", },
+    { title: "СТАТЬИ", path: "/articles" },
+    { title: "РЕКЛАМА", path: "/advertisement" },
+    { title: "ПРОФИЛЬ", path: "/profile", id: "profile" },
 ]
 
 export {
     nonRegisteredLinks,
     registeredLinks,
+    context
 }

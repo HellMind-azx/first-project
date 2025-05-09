@@ -1,7 +1,7 @@
-import React, { useState } from "react";
-import React from "react"
-import "./WebDeveloping.css";
-import Nav from "@/app/components/Nav";
+'use client'
+
+import { useState } from "react";
+import "./WebDeveloping.scss";
 
 const WebDeveloping = () => {
   const [commentText, setCommentText] = useState("");
@@ -121,7 +121,7 @@ const WebDeveloping = () => {
         <h2>Интересно было почитать?</h2>
         <p>Посмотрите также другие материалы из нашего блога:</p>
         <ul>
-          <li><a href="/app/blogs/VideoMarketing">📹 Видео-маркетинг: как привлекать внимание</a></li>
+          <li><a href="/blogs/video-marketing">📹 Видео-маркетинг: как привлекать внимание</a></li>
           <li><a href="/app/blogs/SeoStrategy">🔍 SEO-стратегия: как вывести сайт в топ</a></li>
           <li><a href="/app/blogs/UiDesign">🎨 UI-дизайн: современные тенденции</a></li>
         </ul>
