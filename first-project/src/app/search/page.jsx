@@ -3,6 +3,7 @@
 
 import { useSearchParams } from "next/navigation"
 import { useEffect, useState } from "react"
+import { articles } from "@/store"
 
 export default function SearchPage() {
   const searchParams = useSearchParams()
@@ -12,9 +13,10 @@ export default function SearchPage() {
   useEffect(() => {
     if (query) {
       // В реальном проекте здесь был бы запрос к серверу или фильтрация по данным
-      const mockData = ["React", "Next.js", "Node.js", "CSS", "HTML", "Tailwind"]
-      const filtered = mockData.filter(item =>
-        item.toLowerCase().includes(query.toLowerCase())
+      const filtered = articles.filter(article =>
+        article.title.toLowerCase().includes(query.toLowerCase()) ||
+        article.content.toLowerCase().includes(query.toLowerCase()) ||
+        article.path.toLowerCase().includes(query.toLowerCase())
       )
       setResults(filtered)
     } else {
@@ -29,8 +31,10 @@ export default function SearchPage() {
       {results.length > 0 ? (
         <ul className="space-y-2">
           {results.map((item, index) => (
-            <li key={index} className="p-3 bg-gray-100 rounded-xl shadow-sm">
-              {item}
+            <li key={index} className="p-3 bg-dark-100 rounded-xl shadow-sm">
+              {item.title && (
+                <h2 className="text-lg font-semibold text-white-800">{item.content}</h2>
+              )}
             </li>
           ))}
         </ul>

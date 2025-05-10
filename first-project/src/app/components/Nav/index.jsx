@@ -7,7 +7,8 @@ import { usePathname } from "next/navigation"
 import { useState } from "react"
 import { useRouter } from 'next/navigation'
 import { registeredLinks, nonRegisteredLinks } from "@/store"
-import { FaHome, FaFire, FaInfoCircle, FaQuestionCircle, FaSignInAlt } from 'react-icons/fa'
+import { FaHome, FaFire, FaQuestionCircle, FaSignInAlt } from 'react-icons/fa'
+import { RiGroupLine } from "react-icons/ri";
 import { CgProfile } from "react-icons/cg"
 
 // This is OLD version react.js
@@ -56,8 +57,8 @@ function Nav(props) {
                                     return <FaHome className="nav-icon" />;
                                 case 'СТАТЬИ':
                                     return <FaFire className="nav-icon" />;
-                                case 'ОБО МНЕ':
-                                    return <FaInfoCircle className="nav-icon" />;
+                                case 'О НАС':
+                                    return <RiGroupLine  className="nav-icon" />;
                                 case 'РЕКЛАМА':
                                     return <FaQuestionCircle className="nav-icon" />;
                                 case 'ЛОГИН':

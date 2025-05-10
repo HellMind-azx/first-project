@@ -29,7 +29,7 @@ export default function Footer() {
           <ul>
             <li><Link href="/">Главная</Link></li>
             <li><Link href="/about">О нас</Link></li>
-            <li><Link href="/services">Услуги</Link></li>
+            <li><Link href="/practice">Услуги</Link></li>
             <li><Link href="/contact">Контакты</Link></li>
           </ul>
         </div>
@@ -39,8 +39,8 @@ export default function Footer() {
           <h3 className="footer__title">Контакты</h3>
           <ul>
             <li>o@mycompany.com</li>
-            <li> +7 (900) 000-00-00</li>
-            <li> Москва, ул. Примерная, 1</li>
+            <li> 123-456-7890</li>
+            <li> Антарктида, ул. Лютый холод, 1</li>
           </ul>
         </div>
 

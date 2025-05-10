@@ -29,7 +29,7 @@
       margin: 0 auto;
       padding: 0 1.5rem;
       position: relative;
-      z-index: 10;
+      
   
       @media (max-width: 768px) {
         grid-template-columns: 1fr;
@@ -92,8 +92,6 @@
   
       @media (max-width: 768px) {
         justify-content: center;
-        font-size: small;
-        overflow-y: hidden;
       }
     }
   

@@ -64,7 +64,7 @@
                 .nav-icon {
                     transform: scale(1.1);
                 }
-
+                
                 &::before {
                     width: 100%;
                     background-color: $blue;
@@ -117,7 +117,7 @@ body.dark-theme {
 
         .right {
             background-color: $dark;
-
+            
             a {
                 color: $white;
 

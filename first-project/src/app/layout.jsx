@@ -7,13 +7,16 @@ import { useEffect, useState } from 'react';
 import ThemeProvider from './providers/page';
 import { useAuth } from '@/hooks/useAuth';
 import LoadingBar from './components/LoadingBar';
+import { toast} from 'react-toastify';
 
 export default function RootLayout({ children }) {
   const [isReady, setIsReady] = useState(false);
   const { user, loading } = useAuth();
 
   return (
-    <html lang="en">
+    <html lang="en"
+    
+    >
       <body className="body">
         <Nav user={user} />
         <ThemeProvider>

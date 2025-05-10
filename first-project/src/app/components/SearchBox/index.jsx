@@ -3,6 +3,7 @@
 import "./style.scss";
 import { useState } from "react";
 import { Search } from "lucide-react";
+import { articles } from "@/store";
 
 export default function SearchBox({ placeholder = "Поиск...", onSearch }) {
   const [query, setQuery] = useState("");

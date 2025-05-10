@@ -3,17 +3,18 @@
 
 .profile-page-wrapper {
   position: relative;
-    padding: 30px 120px;
-    @include flex(column, space-between, space-between, 50px);
+  padding: 30px 120px;
+  @include flex(column, space-between, space-between, 50px);
 
-    .profile-header {
-        @include flex(row, center, space-between);
+  .profile-header {
+    @include flex(row, center, space-between);
 
-        .left {
-            @include flex(row, center, flex-start);
-        }
+    .left {
+      @include flex(row, center, flex-start);
     }
+  }
 }
+
 .danger-btn {
   position: absolute;
   top: 10%;
@@ -23,8 +24,28 @@
   padding: 10px 40px;
   border-radius: 5px;
 }
+
 #profile-email {
   margin-left: 75px;
   font-size: 14px;
   color: $dark-gray;
+}
+
+@media (max-width: 768px) {
+  .profile-page-wrapper {
+    padding: 30px 20px;
+
+    .profile-header {
+      .left {
+        margin-left: 0;
+      }
+
+      .right .danger-btn {
+        position: absolute;
+        top: 19%;
+        right: 5%;
+        padding: 8px 20px;
+      }
+    }
+  }
 }
